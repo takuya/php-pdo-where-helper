@@ -19,6 +19,10 @@
         }
         
     },
+    "scripts" : {
+        "init-sample-database": "php tests/sample-data/generate-sample.php",
+        "test": "vendor/bin/phpunit"
+    },
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
