@@ -146,7 +146,7 @@ class PDOTable{
     $this->where->addWhereCond($col, '<', $value);
     return $this;
   }
-  public function where_like($col, $value){
+  public function WhereLike($col, $value){
     $this->where->addWhereCond($col, 'like', $value);
     return $this;
   }
